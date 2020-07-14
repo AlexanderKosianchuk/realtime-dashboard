@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls Alert should render properly 1`] = `
+.c0 {
+  width: 100%;
+  padding: 5px 15px 10px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(30,30,30,0.5);
+  text-transform: uppercase;
+}
+
+@media (min-width:769px) {
+  .c0 {
+    padding: 10px 25px 15px;
+    font-size: 1.6em;
+  }
+}
+
+<Container>
+  <div
+    className="c0"
+  >
+    title
+  </div>
+</Container>
+`;
+
+exports[`Controls Alert should render text 1`] = `
+.c0 {
+  width: 100%;
+  padding: 5px 15px 10px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(30,30,30,0.5);
+  text-transform: uppercase;
+}
+
+@media (min-width:769px) {
+  .c0 {
+    padding: 10px 25px 15px;
+    font-size: 1.6em;
+  }
+}
+
+<Container>
+  <div
+    className="c0"
+  >
+    Text
+  </div>
+</Container>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`systemAlerts systemAlertsActions hideAlert should return an action 1`] = `
+Object {
+  "payload": Object {
+    "id": "test",
+  },
+  "type": "HIDE_ALERT",
+}
+`;
+
+exports[`systemAlerts systemAlertsActions showAlert with variant \`error\` should return an action 1`] = `
+Object {
+  "payload": Object {
+    "icon": undefined,
+    "id": "test",
+    "message": "Alright!",
+    "position": "bottom-right",
+    "timeout": 0,
+    "variant": "danger",
+  },
+  "type": "SHOW_ALERT",
+}
+`;
+
+exports[`systemAlerts systemAlertsActions showAlert with variant \`success\` should return an action 1`] = `
+Object {
+  "payload": Object {
+    "icon": undefined,
+    "id": "test",
+    "message": "Alright!",
+    "position": "bottom-right",
+    "timeout": 10,
+    "variant": "success",
+  },
+  "type": "SHOW_ALERT",
+}
+`;

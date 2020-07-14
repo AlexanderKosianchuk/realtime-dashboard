@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render properly  1`] = `
+<Router history="{{...}}">
+  <ThemeProvider theme="{{...}}">
+    <Helmet defer="{false}"
+            htmlattributes="{{...}}"
+            encodespecialcharacters="{true}"
+            defaulttitle="title"
+            titletemplate="%s | title"
+            titleattributes="{{...}}"
+    >
+    </Helmet>
+    <Switch>
+      <Route path="/"
+             exact="{true}"
+             component="{[Function:"
+             home]}
+      >
+      </Route>
+      <Route component="{[Function:"
+             notfound]}
+      >
+      </Route>
+    </Switch>
+    <Connect(SystemAlerts)>
+    </Connect(SystemAlerts)>
+    <_default>
+    </_default>
+  </ThemeProvider>
+</Router>
+`;
